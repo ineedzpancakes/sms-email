@@ -23,7 +23,7 @@ def email_alert(subject, body, to):
     server.send_message(msg)
     server.quit
 
-if __name__ == '__main__':\
+if __name__ == '__main__':
     # DISCLAIMER: I'm using an infinite loop to keep sending everyday. You can edit this to your liking.
     while True:
         # I'm using this as HOUR, MINUTE, SECOND, MICROSECOND;
